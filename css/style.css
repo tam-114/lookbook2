@@ -29,13 +29,29 @@ html, body {
 @media screen and (min-width: 992px) {
     #flower-bg {
         background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
-        background-position: 20% 34%, 45% 60%;
+        background-position: 20% 34%, 45% 60%!important;
         background-repeat: no-repeat, no-repeat;
-        background-size: 250px 250px, 90px 90px;
+        background-size: 250px 250px, 90px 90px!important;
+    }
+
+    .my-name {
+        font-size: 72px!important;
+        margin-top: 40px!important;
+        padding-bottom: 30px!important;
+    }
+
+    .btn {
+        width: 410px!important;
+        height: 70px!important;
+        font-size: 20px!important;
+    }
+
+    .content-center {
+        transform: translate(0, 40%)!important;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 991px) {
     #flower-bg {
         background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
         background-position: 25% 20%, 74% 36%;
@@ -142,7 +158,7 @@ a:hover {
 }
 
 .ps_3rd {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .copyright {
