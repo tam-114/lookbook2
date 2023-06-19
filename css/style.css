@@ -1,11 +1,11 @@
 @font-face {
     font-family: agrandir;
-    src: url(/fonts/agrandir/Agrandir-GrandHeavy.otf);
+    src: url(../fonts/agrandir/Agrandir-GrandHeavy.otf);
 }
 
 @font-face {
     font-family: commuterSans;
-    src: url(/fonts/commuters_sans/Fontspring-DEMO-commuterssans-regular.otf);
+    src: url(../fonts/commuters_sans/Fontspring-DEMO-commuterssans-regular.otf);
 }
 
 :root {
@@ -28,7 +28,7 @@ html, body {
 
 @media screen and (min-width: 992px) {
     #flower-bg {
-        background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
+        background-image: url(../images/purple-flower2.png), url(../images/orange-flower3.png);
         background-position: 11% 21%, 45% 60%!important;
         background-repeat: no-repeat, no-repeat;
         background-size: 250px 250px, 90px 90px!important;
@@ -54,7 +54,7 @@ html, body {
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
     #flower-bg {
-        background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
+        background-image: url(../images/purple-flower2.png), url(../images/orange-flower3.png);
         background-position: 25% 20%, 74% 36%;
         background-repeat: no-repeat, no-repeat;
         background-size: 200px 200px, 90px 90px;
@@ -79,7 +79,7 @@ html, body {
 
 @media screen and (max-width: 600px) {
     #flower-bg {
-        background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
+        background-image: url(../images/purple-flower2.png), url(../images/orange-flower3.png);
         background-position: top left, bottom right;
         background-repeat: no-repeat, no-repeat;
         background-size: 200px 200px, 90px 90px;
