@@ -29,7 +29,7 @@ html, body {
 @media screen and (min-width: 992px) {
     #flower-bg {
         background-image: url(/images/purple-flower2.png), url(/images/orange-flower3.png);
-        background-position: 20% 34%, 45% 60%!important;
+        background-position: 11% 21%, 45% 60%!important;
         background-repeat: no-repeat, no-repeat;
         background-size: 250px 250px, 90px 90px!important;
     }
@@ -47,7 +47,8 @@ html, body {
     }
 
     .content-center {
-        transform: translate(0, 40%)!important;
+        /* transform: translate(0, 40%)!important; */
+        transform: translate(0, 15%)!important;
     }
 }
 
