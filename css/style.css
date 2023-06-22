@@ -21,9 +21,33 @@
 
 
 html, body {
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     height: 100%;
+    overflow-x: hidden;
 }
+
+.bg-purple {
+     background-color: var(--bg-color);
+}
+
+.bg-purple-wave {
+    position: relative;
+    bottom: -250px;
+    overflow: hidden;
+}
+
+.bg-coral {
+    padding-top: 250px;
+    position: relative;
+    background-color: #FFBCA6;
+    height: 100vh;
+    z-index: -1;
+}
+
+.bg-purple-wave svg {
+    display: block;
+}
+
 
 
 @media screen and (min-width: 992px) {
@@ -169,4 +193,20 @@ a:hover {
     bottom: -60px;
     left: 10px;
     font-family: commuterSans;
+}
+
+.scroll-down {
+    font-family: agrandir;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.about-me {
+    font-family: agrandir;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
 }
