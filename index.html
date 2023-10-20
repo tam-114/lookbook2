@@ -1,113 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="main">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taystan: Portfolio</title>
-    <meta name="description" content="Portfolio website for Taylor Stanley">
-    <meta name="author" content="Taylor Stanley">
+  <meta charset="utf-8">
+  <title>Portfolio: Taylor Stanley</title>
+  <meta name="description" content="Portfolio website for Taylor Stanley, Web Designer/Web Developer">
+  <meta name="author" content="Taylor Stanley">
+  <link rel="canonical" href="https://taystan.dev/" />
 
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <!-- ----------- Mobile Specific Metas --------- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- JS -->
-    <script src="js/script.js"></script>
+  <!-- ------------- FONT ------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ---------------- CSS ------------ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- ---------------- Favicon -------------- -->
+  <link rel="icon" type="image/png" href="images/ts_logo.png">
+
+  <!-- --------------- JS ----------------- -->
+  <script src="js/script.js"></script>
+
+  <!-- --------------- Font library ----------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/572bc1bb94.js" crossorigin="anonymous"></script>
+
+  <!-- -------- AOS Library ----------- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="bg-purple" id="flower-bg">
-        <div class="container mx-auto row justify-content-center align-items-center flex-lg-row flex-column content-center">
-            <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center flex-column pt-5 pt-lg-0">
-                <h1 class="my-name">Taylor <br>Stanley</h1>
-                <div class="d-inline">
-                    <a href="#" class="setLink">
-                        <i class="fab fa-instagram"></i>
+    <!-- Mobiel nav -->
+    <div>
+        <nav class="navbar navbar-expand-lg d-block d-lg-none">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Technologies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+               </div>
+            </div>
+          </nav>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-vh-center container">
+            <img src="./images/profile-pic.png" alt="" class="img-fluid pb-3">
+            <ul class="nav-links">
+                <li>
+                    About
+                </li>
+                <li>
+                    Experience
+                </li>
+                <li>
+                    Projects
+                </li>
+                <li>
+                    Technologies
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+            <ul class="social-links-inline">
+                <li>
+                    <a href="https://www.linkedin.com/in/ta11ystan/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl" style="color: #E4D8C9;"></i>
                     </a>
-                    <a href="#" class="setLink">
-                        <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/taystan.design/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #E4D8C9;"></i>
                     </a>
-                    <a href="#" class="setLink">
-                        <i class="fab fa-github"></i>
+                </li>
+                <li>
+                    <a href="https://github.com/tam-114/" target="_blank">
+                        <i class="fa-brands fa-square-github fa-2xl" style="color: #E4D8C9;"></i>
                     </a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-12 d-flex justify-content-start align-items-start justify-content-md-center align-items-md-center flex-column gy-4">
-                <!-- About Me -->
-                <div>
-                    <a href="#" class="setLink">
-                        <button class="btn orange">About Me</button>
-                    </a>
-                </div>
-                
-                <!-- Freelance -->
-                <div class="ps_1st">
-                <a href="#" class="setLink">
-                    <button class="btn blue">Freelance</button>
-                </a>
-            </div>
-            
-            <!-- Projects -->
-            <div>
-                <a href="#" class="setLink">
-                    <button class="btn green">Projects</button>
-                </a>
-            </div>
-
-            <!-- Resume -->
-            <div class="ps_2nd">
-                <a href="#" class="setLink">
-                    <button class="btn dark-pink">Resume</button>
-                </a>
-            </div>
-            
-            <!-- Contact -->
-            <div class="ps_3rd">
-                <a href="#" class="setLink">
-                    <button class="btn orange">Contact</button>
-                </a>
-            </div>
-            </div>
-        </div>
-
-        <div class="bg-purple-wave">
-            <div class="d-flex justify-content-center align-items-center pb-5 mb-5">
-                <p class="scroll-down">Let's get to know each other</p>
-                <img src="/images/mouse.png" alt="scrolling mouse icon" class="img-fluid">
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7454D9" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,170.7C373.3,128,427,64,480,58.7C533.3,53,587,107,640,144C693.3,181,747,203,800,197.3C853.3,192,907,160,960,154.7C1013.3,149,1067,171,1120,202.7C1173.3,235,1227,277,1280,272C1333.3,267,1387,213,1413,186.7L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="body-container">
+        <div class="body-vh-center">
+            <div class="container">
+                <h1 class="my-name pb-4">Taylor <span class="brown">Stanley</span></h1>
 
-    <section>
-        <div class="bg-coral">
-            <div class="container-fluid">
-                <h1 class="about-me">About Me</h1>
+                <ul class="my-info oswald pb-4">
+                    <li>Orlando, FL</li>
+                    <li><i class="fa-solid fa-star fa-2xs" style="color: #623503;"></i></li>
+                    <li>
+                        <a href="tel:4074349422">
+                            (407) - 434 - 9422
+                        </a>
+                    </li>
+                    <li><i class="fa-solid fa-star fa-2xs" style="color: #623503;"></i></li>
+                    <li>
+                        <a href="mailto:TAYLOR.STANLEY@TAYSTAN.DEV">
+                            TAYLOR.STANLEY@TAYSTAN.DEV
+                        </a>
+                    </li>
+                </ul>
+                
+                <h3 class="my-title oswlad">Freelance Web Designer/Developer</h3>
+                <p class="my-about">I am a highly skilled Web Designer/Developer with a strong focus on communication and problem-solving. My portfolio showcases my proficiency in various web development technologies, including HTML5, CSS3, JavaScript, jQuery, React.js, React Native, PHP, MySQL, and Github. I am also well-versed in design tools like Adobe Photoshop, Adobe XD, Canva, and WordPress.
+                <br><br>
+                My expertise extends beyond coding, as I am proficient in MS Word, MS PowerPoint, MailChimp, G Workspace, and Google Drive technologies. I have a keen eye for detail and a commitment to accessibility standards (WCAG).
+                <br><br>
+                In my role as a Web Designer at Acorn Stairlifts (Dec. 2022 – Present), I continue to build upon my web design and development expertise.
+                With my strong technical skills, attention to detail, and dedication to accessibility, I am committed to delivering exceptional digital solutions that meet clients' needs and exceed their expectations.
+                </p>
 
-                <div class="row">
-                    <div class="col">
+                <ul class="social-links-inline">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ta11ystan/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2xl" style="color: #623503;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/taystan.design/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: #623503;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/tam-114/" target="_blank">
+                            <i class="fa-brands fa-square-github fa-2xl" style="color: #623503;"></i>
+                        </a>
+                    </li>
+                </ul>
 
-                    </div>
-                    <div class="col">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aut molestiae at, id recusandae ab, eius facere laboriosam odio fugiat, aperiam totam sint! Atque iusto soluta in excepturi nulla exercitationem, nostrum ducimus. Repudiandae labore in aperiam harum, eveniet ducimus minus.</p>
-                        <div class="d-inline-block">
-                            <button>let's chat</button>
-                            <button>resume</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
 
-    <p class="copyright mb-0 pb-0 d-sm-none d-block">All Rights Reserved &#174; Taystan 2023</p>
-    <!-- JS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS for Preloader -------------------------------------->
+<script>
+var loader = document.getElementById("preloader");
+    window.addEventListener("load", function() {
+        loader.style.display= "none";
+    })
+</script>
+
+<!-- AOS Library JS -------------------------------- -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<!-- Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- End Document ––––––––––––––––––––––––––––––––––––––––––––––––––-->
 </body>
 </html>
